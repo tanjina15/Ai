@@ -1,0 +1,23 @@
+#A simple Calculator using python:
+
+number1=int(input("Enter 1st number:"))
+number2=int(input("Enter 2nd number:"))
+print("1.Press 1 for summations!")
+print("2.Press 2 for substraction!")
+print("3.Press 3 for multiple!")
+print("4.Press 4 for division!")
+sing=int(input("Input:"))
+if sing == 1 :
+    c=number1+number2
+    print "Summation =",c
+elif sing == 2 :
+    c=number1-number2
+    print " Substraction=",c
+elif sing == 3 :
+    c=number1*number2
+    print "Multiple=", c
+elif sing == 4 :
+    c=number1/number2
+    print " Division=",c
+else :
+    print "error!"
